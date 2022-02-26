@@ -1,0 +1,44 @@
+---
+title: "Assignment 3: Incarceration"
+author: "Viru Repalle"
+date: "2/25/2022"
+output: html_document
+---
+
+```{r include = FALSE, echo = FALSE}
+source("/Users/virurepalle/Code/Info201/a3-virurep/docs/analysis.R")
+```
+
+<h1>Introduction</h1>	
+Incarceration is the main form of punishment in the United States. Obviously, people should be punished when they commit a crime. However, the incarceration rates in the U.S. are very unjust. They are based on a racist system that has plagued the country since its founding. My report focuses on the unusually high incarceration rates of African Americans. To further support my research, I compared them to the incarceration rates of other races. This comparsion can show if there is truly an injustice regarding the jailing rates.  The incarceration measure I used was the jail population.
+
+<h2>Summary Statistics</h2>	
+
+The first value I calculated was the region that had to most African American inmates. The region was the **South**. If we look at American history, the southern part of the United States has been relatively more racist than other regions; they refused to give up slavery, and they created the Jim Crow laws. The state with the most African American inmates was **Louisiana**. This answer makes sense because Louisiana is located in the South. Then, I calculated the proportion of black incarceration in Louisiana and the proportion of white incarceration. The white proportion in jail was about **0.006** while the black proportion is significantly higher at **0.0169**. These values shows the racial inequality surrounding jailing rates. My final statistic is the county with the highest number of black incarceration, which is **Los Angeles County** in California. I wanted to see if the highest county was in Lousiana, however i makes sense that it is Los Angeles because the population of Los Angeles is much higher than counties in Louisiana.
+
+<h1>Charts</h1>	
+<h2>Trends Over Time Chart - Total Jail Inmates Over Time by Race since 2000 in Lousiana</h2>
+<h3>Reasoning</h3>
+
+I chose this chart because you can see the change in incarceration rates over time for different races. I used a line chart because it can accurately show both inclines and declines in the data and I included black, white, and latinx rates to gather a broader vision. The pattern I noticed in this chart are that black jailing rates are much higher than white jailing rates. Latinx rates are relatively low, but this may be due to the low latinx population in Louisiana.
+
+```{r, echo = FALSE}
+ chart_one
+```
+<h2>Comparision Chart - Black Popuation vs Black Inmates In Jail</h2>
+<h3>Reasoning</h3>
+
+I chose this chart because you can see the amount of people that were put in jail compared to the whole population of African Americans. I used a scatterplot because it is the best way to compare two continuous variables. The data is grouped by the year. I noticed a significant growth in proportion of incarcerations of African Americans before the values decline. This might have been due to higher policing before the emergence of a Democratic candidate in 2008.
+
+```{r, echo = FALSE}
+ chart_two
+```
+<h2>Map - Total Number of African American Incarcerations In Lousiana Per County (2018)</h2>
+<h3>Reasoning</h3>
+
+I chose to use a heat map to properly identify the counties in Louisiana that have high incarceration rates. I already established that Louisiana has the highest proportion of black incarceration so this graph is just a further analysis into the subject. The pattern I noticed in this map was that the areas that are more urban have really high rates while the more rural areas have low rates. I researched the amount of African Americans in the highest county and it is significantly higher compared to other counties in Louisiana.
+
+```{r, echo = FALSE}
+ chart_3
+```
+
