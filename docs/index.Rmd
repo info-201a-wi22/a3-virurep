@@ -6,7 +6,7 @@ output: html_document
 ---
 
 ```{r include = FALSE, echo = FALSE}
-source("/Users/virurepalle/Code/Info201/a3-virurep/docs/analysis.R")
+source("/Users/virurepalle/Code/Info201/a3-virurep/source/analysis.R")
 ```
 
 <h1>Introduction</h1>	
